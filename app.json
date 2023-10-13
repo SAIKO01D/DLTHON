@@ -1,0 +1,27 @@
+{
+    "name": "سـايڪو",
+    "description": "اهلا بكم في تنصيب سورس النشر التلقائي لسورس دلـثـون",
+    "logo": "",
+    "stack": "container",
+    "repository": "https://t.me/DLTHON",
+    "keywords": ["python", "chatbot", "telegrambot"],
+    "website": "https://t.me/DLTHON",
+    "env": {
+        "SESSION": {
+            "description": "ضع كود التيرمكس او بايروجرام الذي استخرجته",
+            "value": "",
+            "required": true
+        },
+        "APP_ID": {
+            "description": "ضع ايبي ايدي المتكون من 6 ارقام",
+            "value": "",
+            "required": true
+        },
+        "APP_HASH": {
+            "description": "ضع ايبي هاش المتكون من احرف وارقام",
+            "value": "",
+            "required": true
+        }
+    },
+    "automatic_deploy": false
+}
